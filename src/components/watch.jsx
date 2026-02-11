@@ -4,7 +4,7 @@ import './watch.css'
 const watch = () => {
     return ( 
 
-        <section>
+        <section className='watchcont'>
             <div className='icon'></div>
             <h5>Watch</h5>
         </section>

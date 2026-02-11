@@ -1,0 +1,99 @@
+.message{
+    width: 99%;
+    height: 128px;
+    border-radius: 7px;
+background: #FFF;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.textboxdiv{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 93%;
+    gap: 8px;
+}
+
+.pfp2{
+    background-image: url(../assets/pfp2.png);
+    background-size: cover;
+    width: 40px;
+height: 40px;
+}
+
+.tb{
+    width: 90%;
+height: 40px;
+border-radius: 31px;
+background: #F0F2F5;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: flex-start;
+
+}
+
+.tbtext{
+    color: #65676B;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 13px;
+}
+
+.reply{
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.line1{
+    width: 90%;
+height: 1px;
+background-color: #E4E6EB;
+margin-top: 24px;
+}
+
+.reactionbox{
+    gap: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 11px;
+}
+
+.vid{
+    background-image: url(../assets/vid.png);
+    background-size: cover;
+    width: 29px;
+height: 21.091px;
+}
+
+.upload{
+    background-image: url(../assets/upload.png);
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.react{
+    background-image: url(../assets/react.png);
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.reactionlabel{
+    color: #65676B;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

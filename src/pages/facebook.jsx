@@ -3,6 +3,10 @@ import './facebook.css';
 import Navbtn from '../components/navbtn';
 import Confirm from '../components/confirm';
 import Watch from '../components/watch';
+import Uxui from '../components/uxui';
+import '../assets/uxui.png';
+import Profile from '../components/profile';
+import Msg from '../components/msg';
 
 const Facebook = () => {
     return ( 
@@ -28,9 +32,28 @@ const Facebook = () => {
                         <Watch />
                         <Watch />
                     </article>
-                    <div className='seeall'>
-
+                    <div className='seealldiv'>
+                        <h1 className='title'>Title</h1>
+                        <h6 className='seeall'>See all</h6>
                     </div>
+                    <article className='uxuidiv'>
+                        <Uxui />
+                        <Uxui />
+                        <Uxui />
+                        <Uxui />
+                        <Uxui />
+                        <Uxui />
+                    </article>
+                </section>
+
+                <section className='s2'>
+                    <article className='profdiv'>
+                        <Profile />
+                        <Profile />
+                        <Profile />
+                        <Profile />
+                    </article>
+                    <Msg />
                 </section>
             </main>
 
