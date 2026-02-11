@@ -1,0 +1,6 @@
+.navbtn{
+    width: 28px;
+    height: 28px;
+    background-image: url(../assets/navbtn.png);
+    background-size: cover;
+}
