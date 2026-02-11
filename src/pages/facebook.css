@@ -52,3 +52,32 @@ nav{
     flex-direction: row;
     justify-content: space-between;
 }
+
+.s1{
+    width: 317px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 34px 18px 34px 10px;
+    background-color: white;
+}
+
+.watchdiv{
+    display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 21px;
+width: 100%;
+margin-top: 47px;
+}
+
+.seeall{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

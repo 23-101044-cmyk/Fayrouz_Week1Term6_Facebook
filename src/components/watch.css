@@ -1,0 +1,23 @@
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    gap: 6px;
+
+}
+
+.icon{
+    width: 20.269px;
+height: 17px;
+background-image: url(../assets/Vector.png);
+background-size: cover;
+}
+
+h5{
+    color: #000;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
