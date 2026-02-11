@@ -56,6 +56,10 @@ const Facebook = () => {
                     </article>
                     <Msg />
                     <Post />
+                    <Post />
+                    <Post />
+                    <Post />
+                    <Post />
                 </section>
             </main>
 
