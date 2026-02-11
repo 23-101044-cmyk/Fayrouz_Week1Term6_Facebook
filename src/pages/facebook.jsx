@@ -7,6 +7,7 @@ import Uxui from '../components/uxui';
 import '../assets/uxui.png';
 import Profile from '../components/profile';
 import Msg from '../components/msg';
+import Post from '../components/post';
 
 const Facebook = () => {
     return ( 
@@ -54,6 +55,7 @@ const Facebook = () => {
                         <Profile />
                     </article>
                     <Msg />
+                    <Post />
                 </section>
             </main>
 

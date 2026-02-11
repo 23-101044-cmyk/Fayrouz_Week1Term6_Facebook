@@ -1,0 +1,39 @@
+.post{
+    width: 99%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.postimg{
+    width: 95%;
+    height: 433px;
+    background-image: url(../assets/postimg.png);
+    background-size: cover;
+}
+
+.postinfo{
+    width: 95px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.more{
+    color: #000;
+font-family: Arial;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.postpfp{
+    background-image: url(../assets/postpfp.png);
+    background-size: cover;
+    width: 141px;
+height: 40px;
+}
